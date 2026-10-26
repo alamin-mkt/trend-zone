@@ -179,6 +179,19 @@ export const Footer: React.FC = () => {
             </Link>
           </div>
         </div>
+
+        {/* Developer Credit */}
+        <div className="pt-3 text-center text-[11px] text-white/50 border-t border-white/10 mt-3">
+          Developed by{' '}
+          <a
+            href="https://www.facebook.com/alamin.rankup"
+            target="_blank"
+            rel="noreferrer"
+            className="text-white/80 hover:text-white font-semibold transition-colors underline underline-offset-2"
+          >
+            Al Amin Khan
+          </a>
+        </div>
       </div>
     </footer>
   );
